@@ -1,16 +1,31 @@
-# React + Vite
+# 👟 Loja Drip - E-commerce de Tênis
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo à **Loja Drip**, um projeto de e-commerce moderno desenvolvido em React. O objetivo deste projeto é oferecer uma experiência de compra fluida, com foco em performance, responsividade e um design visualmente atraente para entusiastas de sneakers.
 
-Currently, two official plugins are available:
+## ✨ Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **Carrossel Dinâmico:** Destaques de produtos com navegação intuitiva no Hero.
+* **Catálogo de Produtos:** Listagem inteligente com busca e filtros por categoria.
+* **Página de Detalhes:** Informações completas do produto, seleção de tamanhos, cores e galeria de imagens.
+* **Carrinho de Compras:** Gerenciamento de itens em tempo real utilizando Context API.
+* **Responsividade Total:** Interface adaptada para Desktop, Tablets e dispositivos Mobile.
+* **Segurança de Dados:** Tratamento de erros de carregamento e imagens (Placeholders inteligentes).
 
-## React Compiler
+## 🛠️ Tecnologias Utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Este projeto foi construído com as melhores ferramentas do ecossistema front-end:
 
-## Expanding the ESLint configuration
+* **React 18** - Biblioteca principal.
+* **Vite** - Build tool ultrarrápida para desenvolvimento.
+* **Tailwind CSS** - Estilização moderna e utilitária.
+* **React Router Dom** - Navegação entre páginas (SPA).
+* **React Icons** - Biblioteca de ícones profissionais.
+* **Context API** - Gerenciamento de estado global (Carrinho).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Como Rodar o Projeto Localmente
+
+Certifique-se de ter o [Node.js](https://nodejs.org/) instalado em sua máquina.
+
+1. **Clone o repositório:**
+   ```bash
+   git clone [https://github.com/SEU-USUARIO/loja-drip-react.git](https://github.com/SEU-USUARIO/loja-drip-react.git)
